@@ -22,16 +22,23 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 1440px;
+}
+.cream-container {
+  background-color: hsl(30, 54%, 90%);
+  padding: 100px;
 }
 .white-container {
   background-color: white;
-  width: 300px;
-  height: 1609px;
+  width: 800px;
+  height: 1615px;
+  border-radius: 15px;
+  padding: 20px;
 }
 .mainImage img {
-  display: block;
+  display: flexbox;
   max-width: 100%;
-  margin-bottom: -20px;
+  border-radius: 5px;
 }
 .text {
   padding: 40px;
